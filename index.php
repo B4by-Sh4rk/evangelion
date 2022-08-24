@@ -21,9 +21,9 @@
             <h2 class="logo"><a href="#!">EVANGELION</a></h2>
         </div>
         <ul class="nav_list">
-            <li><a href="#!" class="active">Home</a></li>
+            <li><a href="index.php" class="active">Home</a></li>
             <li><a href="charecters.php">Charecters</a></li>
-            <li><a href="#!">About</a></li>
+            <li><a href="about.php">About</a></li>
         </ul>
         <ul class="nav_login">
             <li><a href="#!">Sign up</a></li>

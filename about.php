@@ -16,14 +16,14 @@
 <div class="container">
     <div class="header_top">
     
-    <nav class="nav">
+    <nav  class="nav">
         <div class="nav_logo">
             <h2 class="logo"><a href="#!">EVANGELION</a></h2>
         </div>
         <ul class="nav_list">
-            <li><a href="index.php">Home</a></li>
-            <li><a href="charecters.php" class="active">Charecters</a></li>
-            <li><a href="about.php">About</a></li>
+        <li><a href="index.php">Home</a></li>
+            <li><a href="charecters.php">Charecters</a></li>
+            <li><a href="about.php" class="active">About</a></li>
         </ul>
         <ul class="nav_login">
             <li><a href="#!">Sign up</a></li>
@@ -52,84 +52,36 @@
 <div id="header" class="fix_top"></div>
 
 <main>
-    <div class="container">
-       <div class="charecters"> 
+   
+<div class="container">
+       <div class="about"> 
         <div class="container_row">
-            
-        <a href="#charecters_rei" class="char_a">
-            <img src="./img/charecters/rei.png" alt="" class="charecters_img">
-            AYANAMI REI
-        </a>
-        <a href="#charecters_asuka" class="char_a">
-        <img src="./img/charecters/asuka.png" alt="" class="charecters_img">
-        ASUKA LANGLEY
-        </a>
-        <a href="#charecters_kaworu" class="char_a">
-        <img src="./img/charecters/kaworu.png" alt="" class="charecters_img">
-        KAWORU NAGISA
-        </a>
-        <a href="#charecters_shinji" class="char_a">
-        <img src="./img/charecters/shinji.png" alt="" class="charecters_img">
-        SHINJI IKARI
+        <a href="#about_popup" class="about_a">
+            <img src="./img/about/1.jpg" alt="" class="about_img">
+            ABOUT
         </a>
         </div>
             </div>
     </div>
 
 
-   <div id="charecters_rei" class="popup">
+    <div class="what">    
+        <img src="./img/shinji-ikari.png" alt="">
+        <p>"Я не знаю что ещё сюда написать !"</p>
+</div>
+
+<div id="about_popup" class="popup">
     <a href="#header" class="popup_close_area"></a>
     <div class="popup_body">
         <div class="popup_content">
             <a href="#header" class="popup_close">x</a>
             <div class="popup_title">
             <div class="popup_row">
-                <img src="./img/charecters/rei_pic.png" alt="" class="charecters_img">
-            AYANAMI REI
+            ABOUT
             </div>            
             <div class="popup_text">
                 <p>
-                Rei Ayanami (綾波 レイ, "Ayanami Rei") is a fictional character from the Neon Genesis Evangelion franchise. She is the First Child, (referred as the First Children in the Japanese version), the pilot of Evangelion Unit-00 and one of the central charecters.                </p>
-                </div>
-            </div>
-        </div>
-    </div>
-   </div>
-
-
-   <div id="charecters_asuka" class="popup">
-    <a href="#header" class="popup_close_area"></a>
-    <div class="popup_body">
-        <div class="popup_content">
-            <a href="#header" class="popup_close">x</a>
-            <div class="popup_title">
-            <div class="popup_row">
-                <img src="./img/charecters/asuka_pic.png" alt="" class="charecters_img">
-        ASUKA LANGLEY
-        </div>            
-            <div class="popup_text">
-                <p>
-                Asuka Langley Sohryu (惣流・アスカ・ラングレー, "Sōryū Asuka Rangurē") is a 14-year-old fictional character from the Neon Genesis Evangelion franchise and one of the main female charecters.                </p>
-                </div>
-            </div>
-        </div>
-    </div>
-   </div>
-
-
-   <div id="charecters_kaworu" class="popup">
-    <a href="#header" class="popup_close_area"></a>
-    <div class="popup_body">
-        <div class="popup_content">
-            <a href="#header" class="popup_close">x</a>
-            <div class="popup_title">
-            <div class="popup_row">
-                <img src="./img/charecters/kaworu_pic.png" alt="" class="charecters_img">
-        KAWORU NAGISA
-        </div>            
-            <div class="popup_text">
-                <p>
-                Kaworu Nagisa (渚 カヲル, "Nagisa Kaworu"), also known as Tabris, is a fictional character from the Neon Genesis Evangelion franchise. He is the Fifth Child and the seventeenth Angel.                </p>
+                    сайт создан с целью сделать всё, что знаю в одном месте. ну или почти всё...
                 </div>
             </div>
         </div>
@@ -138,28 +90,10 @@
 
 
 
-   
-   <div id="charecters_shinji" class="popup">
-    <a href="#header" class="popup_close_area"></a>
-    <div class="popup_body">
-        <div class="popup_content">
-            <a href="#header" class="popup_close">x</a>
-            <div class="popup_title">
-                <div class="popup_row">
-                <img src="./img/charecters/shinji_pic.png" alt="" class="charecters_img">
-        SHINJI IKARI
-        </div>            
-            <div class="popup_text">
-                <p>
-                Shinji Ikari (碇シンジ, "Ikari Shinji") is the Third Child, the main protagonist of the series and the designated pilot of Evangelion Unit-01.
-                </p>
-                </div>
-            </div>
-        </div>
-    </div>
-   </div>
 
-   <div id="login_popup" class="popup">
+
+
+<div id="login_popup" class="popup">
     <a href="#header" class="popup_close_area"></a>
     <div class="popup_body">
         <div class="popup_content">
@@ -183,10 +117,6 @@
     </div>
    </div>
 
-   <div class="what">    
-        <img src="./img/shinji-ikari.png" alt="">
-        <p>"Вау, тут тоже нет текста !"</p>
-</div>
 
 </main>
 
